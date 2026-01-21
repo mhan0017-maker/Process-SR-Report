@@ -28,7 +28,7 @@ jobs:
           from PIL import Image
           img = Image.open("app.png").convert("RGBA")
           sizes = [16,32,48,64,128,256]
-          img.save(app.ico", sizes[(s,s) for s in sizes])
+          img.save("app.ico", sizes[(s,s) for s in sizes])
 
       - name: Build single-file EXE
         run: |
