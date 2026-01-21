@@ -1,0 +1,5 @@
+watchdog
+openpyxl
+pywin32
+pyyaml
+pyinstaller
